@@ -3,27 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tessa's projects</title>
+    <title>Tessa Ickx - Project Showcase</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Projecten - Tessa Ickx</h1>
+        <h1>Tessa Ickx</h1>
+        <p>Data Scientist | Coding Teacher | MSc Information Engineering Technology</p>
     </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="cv.html">About me</a></li>
+        </ul>
+    </nav>
+    
     <main>
-        <section class="project-list">
+        <section id="projects">
             <h2>Projects</h2>
-            <ul>
-                <li><a href="https://logicgame.tickx.me">Logic Game</a></li>
-                <li><a href="https://tickxit.pythonanywhere.com/">Naamkaartjesmaker CodeFever</a></li>
-                
-                <li><a href="https://paths.tickx.me">Relatieve paden game</a></li>
-<!--                 <li><a href="https://about.tickx.me">About Me</a></li> -->
-            </ul>
+            <div class="projects-container">
+                <div class="project">
+                    <h3>Logic Game</h3>
+                    <p>An educational game to teach logic gates to kids.</p>
+                    <p>Techologies: Angular, html, css, typescript</p>
+                    <a href="https://logicgame.tickx.me" target="_blank">View project</a>
+                </div>
+                <div class="project">
+                    <h3>CodeFever Name Card Maker</h3>
+                    <p>Tool for creating name cards for CodeFever.</p>
+                    <p>Technologies: Python, Flask</p>
+                    <a href="https://tickxit.pythonanywhere.com/" target="_blank">View project</a>
+                </div>
+                <div class="project">
+                    <h3>Relative Paths Game</h3>
+                    <p>A game to learn the concept of relative paths.</p>
+                    <p>Technologies: React, html, css, typescript</p>
+                    <a href="https://paths.tickx.me" target="_blank">View project</a>
+                </div>
+                <div class="project">
+                    <h3>Motif Discovery in Wearable Time Series</h3>
+                    <p>Master's thesis: Improved activity recognition using wearable time series data.</p>
+                    <p>Technologies: Python, Pandas, CatBoost, Jupyter Notebook, LaTeX</p>
+                    <a href="https://lib.ugent.be/catalog/rug01:003063519" target="_blank">View thesis</a>
+                </div>
+                <div class="project">
+                    <h3>Coming soon...</h3>
+                    <p>I am building an electronic, programmable device to teach children how to code. The first prototype is ready. Ask me about it!</p>
+                    <a >Coming soon...</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="about-me">
+            <h2>About me</h2>
+            <p>For more information about me, please visit <a href="cv.html">this page</a> or my <a href="https://linkedin.com/in/tessaickx/">LinkedIn</a>.</p>
+
         </section>
     </main>
+    
     <footer>
         <p>&copy; 2024 Tessa Ickx. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
