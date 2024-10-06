@@ -17,9 +17,9 @@ This repository contains the source code for my personal project portfolio, host
 - `index.html`: Main landing page
 - `styles.css`: Stylesheet for the landing page
 - `CNAME`: Custom domain configuration
-- `LogicGame/`: Directory containing the Logic Game project
 - (Other project directories to be added)
 
 ## Deployment
 
-This site is automatically deployed using GitHub Pages. Hopefully.
+This site is automatically deployed using GitHub Pages. Hopefully.  
+Other parts of site are deployed with google firebase hosting or pythonanywhere
