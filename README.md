@@ -1,25 +1,32 @@
-# Tesax123.github.io
+# Tessa Ickx — Portfolio
 
-# Tesax123's Project Portfolio
+Personal portfolio website for Tessa Ickx, AI Engineer at Cegeka and Coding Teacher at CodeFever.
 
-This repository contains the source code for my personal project portfolio, hosted at [https://tickx.me](https://tickx.me). Hopefully.
+## Tech stack
 
-## Projects
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-- Logic Game
-- Relative Paths Game (React)
-- Naamkaartjesmaker (Flask)
-- About Me
-- ...?
+## Local development
 
-## Structure
+Requirements: Node.js & npm
 
-- `index.html`: Main landing page
-- `styles.css`: Stylesheet for the landing page
-- `CNAME`: Custom domain configuration
-- (Other project directories to be added)
+```sh
+git clone <YOUR_GIT_URL>
+cd <YOUR_PROJECT_NAME>
+npm install
+npm run dev
+```
 
 ## Deployment
 
-This site is automatically deployed using GitHub Pages. Hopefully.  
-Other parts of site are deployed with google firebase hosting or pythonanywhere
+Build for production:
+
+```sh
+npm run build
+```
+
+The output is in the `dist/` folder and can be deployed to any static hosting provider (Netlify, Vercel, Cloudflare Pages, etc.).
