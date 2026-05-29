@@ -66,7 +66,7 @@ const skillCategories = [
 
 const experience = [
   {
-    role: "Data Scientist / AI Engineer",
+    role: "Lead AI Engineer",
     company: "Cegeka",
     period: "Sep 2022 – Present",
     description:
@@ -92,7 +92,7 @@ const education = [
     degree: "Honours Programme — Quetelet Lectures",
     school: "Ghent University",
     period: "2019 – 2021",
-    note: "Interdisciplinary lecture series on data & statistics",
+    note: "",
   },
 ];
 
