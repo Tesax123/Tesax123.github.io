@@ -99,13 +99,13 @@ const education = [
 const achievements = [
   {
     year: "2026",
-    text: "Top 5 Rising Tech Star — She Goes ICT",
+    text: "Winner Rising Tech Star — She Goes ICT",
     url: "https://shegoesict.be/",
   },
   {
     year: "2026",
-    text: "Finalist 'Prille Klimmer', de Ondernemers\u00ADaward by Broeikas (Aalst)",
-    url: "https://www.broeikas.be/ondernemersaward",
+    text: "Winner 'Prille Klimmer', de Ondernemers\u00ADaward by Broeikas (Aalst)",
+    url: "https://www.broeikas.be/ondernemersaward/ondernemersaward-2026",
   },
   {
     year: "2025",
