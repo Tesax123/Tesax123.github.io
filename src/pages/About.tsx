@@ -66,7 +66,7 @@ const skillCategories = [
 
 const experience = [
   {
-    role: "Data Scientist / AI Engineer",
+    role: "Lead AI Engineer",
     company: "Cegeka",
     period: "Sep 2022 – Present",
     description:
@@ -92,20 +92,20 @@ const education = [
     degree: "Honours Programme — Quetelet Lectures",
     school: "Ghent University",
     period: "2019 – 2021",
-    note: "Interdisciplinary lecture series on data & statistics",
+    note: "",
   },
 ];
 
 const achievements = [
   {
     year: "2026",
-    text: "Top 5 Rising Tech Star — She Goes ICT",
+    text: "Winner Rising Tech Star — She Goes ICT",
     url: "https://shegoesict.be/",
   },
   {
     year: "2026",
-    text: "Finalist 'Prille Klimmer', de Ondernemers\u00ADaward by Broeikas (Aalst)",
-    url: "https://www.broeikas.be/ondernemersaward",
+    text: "Winner 'Prille Klimmer', de Ondernemers\u00ADaward by Broeikas (Aalst)",
+    url: "https://www.broeikas.be/ondernemersaward/ondernemersaward-2026",
   },
   {
     year: "2025",
@@ -194,7 +194,7 @@ const About = () => (
           />
         </motion.div>
         <motion.p {...fadeIn} className="text-lg text-muted-foreground leading-relaxed text-center md:text-left">
-          Hi! I'm <span className="font-semibold text-foreground">Tessa</span>. I am an AI engineer at{" "}
+          Hi! I'm <span className="font-semibold text-foreground">Tessa</span>. I am a Lead AI Engineer at{" "}
           <span className="text-primary font-medium">Cegeka</span> and a coding teacher at{" "}
           <span className="text-primary font-medium">CodeFever</span>. I love building smart solutions and
           inspiring the next generation of coders. In the few moments I am not (teaching about) coding, you can find me
