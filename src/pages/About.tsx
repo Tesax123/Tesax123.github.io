@@ -194,7 +194,7 @@ const About = () => (
           />
         </motion.div>
         <motion.p {...fadeIn} className="text-lg text-muted-foreground leading-relaxed text-center md:text-left">
-          Hi! I'm <span className="font-semibold text-foreground">Tessa</span>. I am an AI engineer at{" "}
+          Hi! I'm <span className="font-semibold text-foreground">Tessa</span>. I am a Lead AI Engineer at{" "}
           <span className="text-primary font-medium">Cegeka</span> and a coding teacher at{" "}
           <span className="text-primary font-medium">CodeFever</span>. I love building smart solutions and
           inspiring the next generation of coders. In the few moments I am not (teaching about) coding, you can find me
